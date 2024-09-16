@@ -1,0 +1,210 @@
+/* page section styling */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #202124;
+    font-size: small;
+    color: white;
+    padding: 15px;
+    padding-inline: 10px;
+    height: fit-content;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(25, 25, 25);
+}
+
+footer div{
+    margin: 10px;
+}
+
+/* logo styling for search & images pages */
+#logo-text {
+    font-size: 70pt; 
+    text-align: center;
+    font-weight: 500;
+    padding-top: 5px;
+    height: fit-content
+}
+
+#logo-text-blurb {
+    font-size: medium;
+    color: darkgoldenrod;
+    position: absolute;
+    width: calc(100% - 375px);
+    left: 375px;
+}
+
+#logo-img {
+    height: 75px;
+}
+
+/* standard search text box styling */
+#standard {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 100cqmax;
+    border-color: dimgrey;
+    border-style: groove;
+    margin-top: 25px;
+    border-width: 1px;
+    width: 80%;
+    max-width: 500px;
+    font-size: large;
+    color: white;
+    padding: 13px;
+    padding-inline: 20px;
+    background-color: transparent;
+}
+
+/* applied temporarily during layout / design only */
+.outlines {
+    border-color: #7f8083;
+        border-style: solid;
+    border-width: 1;
+}
+
+/* advanced search page styling */
+#logo-adv {
+    font-size: 25px; 
+}
+
+#adv-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darksalmon;
+    padding: 40px;
+    padding-inline: 25px;
+    font-size: 20px;
+    text-align: start;
+}
+
+#adv-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px;
+    padding-left: 25px;
+    font-size: larger;
+    text-align: start;
+}
+
+/* advanced search form components */
+.adv-container {
+    padding: 5px;
+    padding-left: 25px;
+}
+
+.adv-text-label {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: med;
+    color: rgb(166, 165, 165);
+    min-width: 150px;
+}
+
+.adv-text-input {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    padding: 5px;
+    border-style: groove;
+    font-size: med;
+    color: white;
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7f8083;
+    max-width: 50vw;
+    min-width: 45vw;
+    background-color: transparent;
+}
+
+.adv-text-input:focus {
+    border-color: rgb(84, 139, 248);
+    outline: none;
+}
+
+#adv-button-container {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    max-width: 46vw;
+    min-width: 46vw;
+    left: 200px;
+    text-align: center;
+    padding: 0;
+}
+
+#adv-btn-submit {
+    font-size: small;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(84, 139, 248);
+    margin: 0;
+}
+
+#adv-btn-submit:hover {
+    background-color: rgb(141, 177, 249);
+}
+
+/* button styling for standard and image search pages*/
+input[type="submit"] {
+    padding: 10px;
+    padding-inline: 15px;
+    background-color: #3c3e45;
+    font-size: small;
+    color: white;
+    margin: 25px;
+    margin-inline: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #202124;
+}
+
+input[type="submit"]:hover {
+    border-color: dimgray;
+}
+
+/* error page styling */
+#error-img {
+    border-radius: 15px;
+    background-color: white;
+    max-height: 45vh; 
+    align-items: center;
+    padding: 10px;
+}
+
+#error-body {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#error-body div {
+    padding: 15px;
+}
+
+/* links styling */
+a{
+    margin-inline: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
